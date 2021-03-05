@@ -1,8 +1,7 @@
-package com.example.sampleapp.data.remote.response
+package com.example.sampleapp.data.remote
 
-import com.example.sampleapp.data.remote.Endpoints
-import com.example.sampleapp.data.remote.Networking
 import com.example.sampleapp.data.remote.request.DummyRequest
+import com.example.sampleapp.data.remote.response.DummyResponse
 import io.reactivex.Single
 import retrofit2.http.Body
 import retrofit2.http.Header

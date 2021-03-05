@@ -5,7 +5,7 @@ import android.content.Context
 import android.content.SharedPreferences
 import com.example.sampleapp.SampleApp
 import com.example.sampleapp.data.local.DatabaseService
-import com.example.sampleapp.data.remote.response.NetworkService
+import com.example.sampleapp.data.remote.NetworkService
 import com.example.sampleapp.data.repository.DummyRepository
 import com.example.sampleapp.di.ApplicationContext
 import com.example.sampleapp.di.module.ApplicationModule

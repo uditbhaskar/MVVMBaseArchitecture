@@ -1,7 +1,6 @@
 package com.example.sampleapp.data.remote
 
 import com.example.sampleapp.BuildConfig
-import com.example.sampleapp.data.remote.response.NetworkService
 import com.jakewharton.retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import okhttp3.Cache
 import okhttp3.OkHttpClient

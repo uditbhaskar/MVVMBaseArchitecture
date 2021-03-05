@@ -8,7 +8,7 @@ import com.example.sampleapp.BuildConfig
 import com.example.sampleapp.SampleApp
 import com.example.sampleapp.data.local.DatabaseService
 import com.example.sampleapp.data.remote.Networking
-import com.example.sampleapp.data.remote.response.NetworkService
+import com.example.sampleapp.data.remote.NetworkService
 import com.example.sampleapp.di.ApplicationContext
 import com.example.sampleapp.utils.network.NetworkHelper
 import com.example.sampleapp.utils.rx.RxSchedulerProvider
