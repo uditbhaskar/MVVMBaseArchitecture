@@ -17,18 +17,19 @@ android {
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
+
+
+        buildConfigField("String", "BASE_URL", base_url)
+        buildConfigField("String", "API_KEY", access_key)
+
+        //Base url and Api key in the git ignore gradle.properties for privacy and security purposes
     }
 
     buildTypes {
-        debug{
-            buildConfigField("String", "BASE_URL", "\"https://api.projects.bootcamp.mindorks.com/batch/green/\"")
-            buildConfigField("String", "API_KEY", "\"HBNA19QVVAPP\"")
-        }
+
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            buildConfigField("String", "BASE_URL", "\"https://api.projects.bootcamp.mindorks.com/batch/green/\"")
-            buildConfigField("String", "API_KEY", "\"HBNA19QVVAPP\"")
         }
     }
     compileOptions {
